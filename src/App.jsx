@@ -30,10 +30,10 @@ function App() {
       <Navbar />
 
       <main>
-        <section id="inicio" className="hero">
-          <div className="hero-spacer" />
+        <section id="inicio" className="conteudo">
+          <div className="empty-box" />
 
-          <div className="hero-content">
+          <div className="conteudo-destaque">
             <p className="eyebrow">DESENVOLVEDOR · BRASIL</p>
             <h1>
               Desenvolvedor, Brasil.{" "}
@@ -61,7 +61,7 @@ function App() {
           </div>
         </section>
 
-        <section id="trabalho" className="work section-shell">
+        <section id="projetos" className="work section-shell">
           <div className="work-heading">
            
           </div>
@@ -81,9 +81,7 @@ function App() {
 
                 <div className="project-image" aria-label={`Imagem de ${project.title}`}>
                   <div className="image-placeholder">
-                    <div className="image-icon">
-                      <span />
-                      <span />
+                    <div className="image-icon">                   
                     </div>
                   </div>
                 </div>
@@ -92,7 +90,7 @@ function App() {
           </div>
         </section>
 
-        <section id="projetos" className="selected section-shell">
+        <section  className="selected section-shell">
           <div className="selected-title">
             <span className="small-label">PROJETOS</span>
             <h2>O que venho construindo</h2>
@@ -147,10 +145,6 @@ function App() {
           <div className="contact-copy">
             <span className="small-label">CONTATO</span>
             <h2>Vamos conversar.</h2>
-            <p>
-              Se quiser falar sobre um projeto, oportunidade ou simplesmente
-              trocar uma ideia sobre tecnologia, entre em contato.
-            </p>
           </div>
 
           <div className="contact-links">

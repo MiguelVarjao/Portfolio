@@ -1,5 +1,5 @@
 :root {
-  --background: #080808;
+  --background: black;
   --foreground: #f2f2f0;
   --muted: #8d8d8a;
   --line: #292929;
@@ -40,23 +40,25 @@ a {
   padding-top: 3px;
   position: relative;
   z-index: 10;
+  color: rgb(248, 242, 231);
 }
 
-.brand,
-.contact-link,
+.barra-principal,
+.link-contato,
 .navbar li a {
-  font-size: 12px;
-  line-height: 1;
+  font-size: 13px;
+  line-height: 2;
   transition: opacity 0.2s ease;
+  font-weight: bold;
 }
 
-.brand:hover,
-.contact-link:hover,
+.barra-principal:hover,
+.link-contato:hover,
 .navbar li a:hover {
-  opacity: 0.55;
+  opacity: 0.60;
 }
 
-.contact-link {
+.link-contato {
   justify-self: end;
 }
 
@@ -70,7 +72,7 @@ a {
   list-style: none;
 }
 
-.hero {
+.conteudo {
   min-height: 650px;
   width: min(1350px, calc(100% - 48px));
   margin: 0 auto;
@@ -80,9 +82,10 @@ a {
   padding-bottom: 90px;
 }
 
-.hero-content {
+.conteudo-destaque {
   max-width: 650px;
   justify-self: end;
+  color: rgb(248, 242, 231);
 }
 
 .eyebrow,

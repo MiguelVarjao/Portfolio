@@ -1,19 +1,18 @@
 function Navbar() {
   return (
     <header className="navbar">
-      <a className="brand" href="#inicio">
-        portfolio
+      <a className="barra-principal" href="#inicio">
+        Portfolio
       </a>
 
-      <nav aria-label="Navegação principal">
+      <nav>
         <ul>
-          <li><a href="#trabalho">Trabalho</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#educacao">Educação</a></li>
         </ul>
       </nav>
 
-      <a className="contact-link" href="#contato">
+      <a className="link-contato" href="#contato">
         Contato
       </a>
     </header>
