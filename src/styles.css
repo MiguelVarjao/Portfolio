@@ -32,15 +32,19 @@ a {
 
 .navbar {
   width: min(1350px, calc(100% - 48px));
+  height: 45px;
   margin: 0 auto;
-  height: 58px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   padding-top: 3px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
   color: rgb(248, 242, 231);
+  background-color: rgba(0, 0, 0, 0.877);
 }
 
 .barra-principal,

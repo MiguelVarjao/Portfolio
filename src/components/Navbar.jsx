@@ -9,6 +9,7 @@ function Navbar() {
         <ul>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#educacao">Educação</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
         </ul>
       </nav>
 

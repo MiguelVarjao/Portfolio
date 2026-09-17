@@ -80,7 +80,7 @@ function App() {
           </div>
         </section>
 
-        <section  className="selected section-shell">
+        <section  id="tecnologias"className="selected section-shell">
           <div className="selected-title">
             <span className="small-label">PROJETOS</span>
             <h2>O que venho construindo</h2>
