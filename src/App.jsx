@@ -3,24 +3,17 @@ import Navbar from "./components/Navbar";
 const projects = [
   {
     year: "2026",
-    title: "Gerenciador de tarefas",
+    title: "Plataforma de curso",
     description:
-      "Aplicação para organizar tarefas, acompanhar o progresso e praticar desenvolvimento com React.",
+      "Plataforma corporativa de treinamento e desenvolvimento profissional, desenvolvida para apoiar a capacitação e o crescimento de colaboradores.",
     category: "React",
   },
   {
     year: "2026",
-    title: "Biblioteca no terminal",
+    title: "Gerenciador de tarefas",
     description:
-      "Sistema desenvolvido em Java para gerenciamento de livros, usuários e empréstimos.",
-    category: "Java",
-  },
-  {
-    year: "2025",
-    title: "Agenda de contatos",
-    description:
-      "Projeto de estudo focado em lógica, orientação a objetos e manipulação de listas.",
-    category: "Java",
+      "Aplicação para organizar tarefas, acompanhar o progresso e praticar desenvolvimento com React.",
+    category: "React",
   },
 ];
 
@@ -62,13 +55,13 @@ function App() {
         </section>
 
         <section id="projetos" className="work section-shell">
-          <div className="work-heading">
-           
-          </div>
-
-          <div className="project-list">
+          
+          <div className="project">
+          
+            <span className="small-label">Projetos pessoais</span>
+            
             {projects.map((project) => (
-              <article className="project" key={project.title}>
+              <article key={project.title}>
                 <div className="project-info">
                   <span className="project-year">{project.year}</span>
 
@@ -79,12 +72,9 @@ function App() {
                   <span className="project-category">{project.category}</span>
                 </div>
 
-                <div className="project-image" aria-label={`Imagem de ${project.title}`}>
-                  <div className="image-placeholder">
-                    <div className="image-icon">                   
-                    </div>
-                  </div>
+                <div className="project-image">
                 </div>
+
               </article>
             ))}
           </div>
