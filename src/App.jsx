@@ -37,7 +37,7 @@ function App() {
 
         <section id="sobre" className="intro section-shell">
           <div className="intro-label">
-            <span>Sobre mim</span>
+            <span>SOBRE MIM</span>
           </div>
 
           <div className="intro-text">
@@ -82,8 +82,8 @@ function App() {
 
         <section  id="tecnologias"className="selected section-shell">
           <div className="selected-title">
-            <span className="small-label">PROJETOS</span>
-            <h2>O que venho construindo</h2>
+            <span className="small-label">tecnologias</span>
+            <h2>Tecnologias que sei</h2>
           </div>
 
           <div className="selected-grid">
@@ -138,7 +138,7 @@ function App() {
           </div>
 
           <div className="contact-links">
-            <a href="mailto:seuemail@email.com">E-mail ↗</a>
+            <a href="mailto:miguelvarjao01@gmail.com">E-mail ↗</a>
             <a href="https://github.com/MiguelVarjao" target="_blank" rel="noreferrer">
               GitHub ↗
             </a>
