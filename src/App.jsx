@@ -1,12 +1,15 @@
 import Navbar from "./components/Navbar";
+import gerenciador_tarefas from "./assets/gerenciador_tarefas.png";
+import etp from "./assets/Dashboard.png"
 
 const projects = [
   {
     year: "2026",
-    title: "Plataforma de curso",
+    title: "Plataforma de cursos",
     description:
       "Plataforma corporativa de treinamento e desenvolvimento profissional, desenvolvida para apoiar a capacitação e o crescimento de colaboradores.",
     category: "React",
+    image:etp,
   },
   {
     year: "2026",
@@ -14,6 +17,7 @@ const projects = [
     description:
       "Aplicação para organizar tarefas, acompanhar o progresso e praticar desenvolvimento com React.",
     category: "React",
+    image:gerenciador_tarefas,
   },
 ];
 
@@ -27,9 +31,9 @@ function App() {
           <div className="empty-box" />
 
           <div className="conteudo-destaque">
-            <p className="eyebrow">DESENVOLVEDOR · BRASIL</p>
+            <p className="eyebrow">DESENVOLVEDOR </p>
             <h1>
-              Desenvolvedor, Brasil.{" "}
+              Desenvolvedor.{" "}
               <span>Construindo experiências digitais e soluções com tecnologia.</span>
             </h1>
           </div>
@@ -71,10 +75,9 @@ function App() {
 
                   <span className="project-category">{project.category}</span>
                 </div>
-
-                <div className="project-image">
-                </div>
-
+                  
+                <img src={project.image} alt="Gerenciador de tarefas" />
+                
               </article>
             ))}
           </div>
@@ -83,7 +86,7 @@ function App() {
         <section  id="tecnologias"className="selected section-shell">
           <div className="selected-title">
             <span className="small-label">tecnologias</span>
-            <h2>Tecnologias que sei</h2>
+            <h2>Tecnologias </h2>
           </div>
 
           <div className="selected-grid">
