@@ -83,38 +83,66 @@ function App() {
           </div>
         </section>
 
-        <section  id="tecnologias"className="selected section-shell">
-          <div className="selected-title">
-            <span className="small-label">tecnologias</span>
-            <h2>Tecnologias </h2>
+        <section id="tecnologias" className="selected section-shell">
+          <div className="skills-header">
+            <span className="small-label">— TECNOLOGIAS</span>
+
+            <h2>Habilidades</h2>
+
+            <p>
+              Tecnologias que utilizo para desenvolver, integrar e publicar aplicações.
+            </p>
           </div>
 
-          <div className="selected-grid">
-            <div>
-              <span>01</span>
-              <h3>Interfaces web</h3>
-              <p>
-                Projetos em React com foco em estrutura, componentes e CSS
-                responsivo.
-              </p>
+          <div className="skills-grid">
+            <div className="skill-card">
+              <span className="skill-icon">5</span>
+              <span>HTML5</span>
             </div>
 
-            <div>
-              <span>02</span>
-              <h3>Sistemas em Java</h3>
-              <p>
-                Aplicações para praticar orientação a objetos, coleções e
-                organização de código.
-              </p>
+            <div className="skill-card">
+              <span className="skill-icon">CSS</span>
+              <span>CSS3</span>
             </div>
 
-            <div>
-              <span>03</span>
-              <h3>Estudos de TI</h3>
-              <p>
-                Redes, banco de dados, desenvolvimento e outras áreas que fazem
-                parte da minha formação.
-              </p>
+            <div className="skill-card">
+              <span className="skill-icon">JS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">⚛</span>
+              <span>React</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">☕</span>
+              <span>Java</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">SQL</span>
+              <span>SQL</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">Git</span>
+              <span>Git / GitHub</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">◆</span>
+              <span>Docker</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">⊞</span>
+              <span>Windows</span>
+            </div>
+
+            <div className="skill-card">
+              <span className="skill-icon">◆</span>
+              <span>Linux</span>
             </div>
           </div>
         </section>
