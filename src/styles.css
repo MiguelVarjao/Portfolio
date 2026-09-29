@@ -205,20 +205,8 @@ img {
   justify-self: end;
 }
 
-.project-image {
-  width: 100%;
-  aspect-ratio: 2.6 / 1;
-  background: #e5e3e2;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 70px
-}
-
-.image-placeholder {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
+.project-image img {
+  margin-bottom: 300px
 }
 
 .selected {
@@ -392,8 +380,6 @@ footer a:hover {
   align-items: center;
   justify-content: center;
 
-  gap: 7px;
-
   border: 1px solid #1c2c31;
   border-radius: 7px;
 
@@ -403,7 +389,8 @@ footer a:hover {
   font-size: 12px;
   font-weight: 600;
 
-  transition: 0.2s ease;
+  transition:  transform 0.2s ease, border-color 0.2s ease,
+    background-color 0.2s ease;;
 }
 
 .skill-card:hover {
@@ -422,6 +409,15 @@ footer a:hover {
   color: #ff0000;
   font-size: 18px;
   font-weight: 700;
+}
+
+.skill-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 800px) {

@@ -76,7 +76,7 @@ function App() {
                   <span className="project-category">{project.category}</span>
                 </div>
                   
-                <img src={project.image} alt="Gerenciador de tarefas" />
+                <div classname="project-image"><img src={project.image} alt="Gerenciador de tarefas" /></div>
                 
               </article>
             ))}
@@ -96,52 +96,102 @@ function App() {
 
           <div className="skills-grid">
             <div className="skill-card">
-              <span className="skill-icon">5</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5"
+                />
+              </div>
               <span>HTML5</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">CSS</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS3"
+                />
+              </div>
               <span>CSS3</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">JS</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                />
+              </div>
               <span>JavaScript</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">⚛</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                />
+              </div>
               <span>React</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">☕</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  alt="Java"
+                />
+              </div>
               <span>Java</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">SQL</span>
-              <span>SQL</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="MySQL"
+                />
+              </div>
+              <span>MySQL</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">Git</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                />
+              </div>
               <span>Git / GitHub</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">◆</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                  alt="Docker"
+                />
+              </div>
               <span>Docker</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">⊞</span>
-              <span>Windows</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"
+                  alt="Vite"
+                />
+              </div>
+              <span>Vite</span>
             </div>
 
             <div className="skill-card">
-              <span className="skill-icon">◆</span>
+              <div className="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                  alt="Linux"
+                />
+              </div>
               <span>Linux</span>
             </div>
           </div>
